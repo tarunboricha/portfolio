@@ -1,0 +1,221 @@
+.header-item {
+  display: flex;
+  justify-content: center;
+  background-color: #4f4f51;
+  padding-top: 3%;
+}
+
+.header-item h5 {
+  color: #a26f66;
+  margin: 1.5%;
+  cursor: pointer;
+  /* font-size: 1rem; */
+}
+
+.App {
+  background-color: #4f4f51;
+}
+
+.header h2 {
+  text-align: center;
+  color: #a26f66;
+  margin-top: 1%;
+  font-weight: 400;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.bio {
+  padding: 0 7vw;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 4%;
+  justify-content: space-between;
+}
+
+.bio-data {
+  width: 43vw;
+  height: 100%;
+  display: flex;
+  padding: 7vh 7vw;
+  padding-left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  line-height: 1.8em;
+}
+
+.head-bio {
+  margin: 0em 0.1em 0em 0.25em;
+  align-self: center;
+  text-align: center;
+  font-size: 1.78em;
+  color: rgb(245, 143, 124);
+  max-width: 3103px;
+}
+
+.bio-disc {
+  color: white;
+  margin-bottom: 0em;
+  max-width: 2962px;
+  margin-top: 1.85em;
+  margin-left: 0.35em;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.App img {
+  width: 33vw;
+}
+
+.profile-img {
+  background-attachment: initial;
+  background-size: contain;
+  margin-top: 2.1em;
+  margin-bottom: 4.8em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.6em;
+  margin-top: 1.2em;
+  margin-bottom: 0px;
+}
+
+.icons a{
+  text-decoration: none;
+  color: rgba(245, 143, 124, 0.49);
+}
+
+.icons i{
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.cv{
+  padding: 0 10vw;
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-between;
+}
+.left-side{
+  width: 45vw;
+}
+.internship{
+  margin: 3% 0;
+}
+.exper-head{
+  align-self: center;
+  font-size: 2rem;
+  color: rgb(245, 143, 124);
+  max-width: 3103px;
+  margin-bottom: 2%;
+}
+
+
+.inter-head{
+  font-size: larger;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.inter-disc{
+  text-align: justify;
+  color: #d6d6d6;
+  margin: 2% 0;
+}
+
+.internship hr{
+  margin: 1% 0;
+  width: 70%;
+  color: #d6d6d6;
+}
+img.cv-profile{
+  height: 45vh;
+  width: 45vh;
+  border-radius: 50%;
+}
+
+.name{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(245, 143, 124);
+  margin-top: 15%;
+}
+
+.contact-detail{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 15%;
+}
+
+.skil-list{
+  color: #ffffff;
+  display: flex;
+}
+
+.skil-list li{
+  margin-right: 8%;
+}
+
+#mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #desktop{
+    display: none;
+  }
+  #mobile{
+    display: inline;
+  }
+  .header {
+    padding-top: 10%;
+    margin-bottom: 4%;
+  }
+  .header-item{
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+  }
+  .bio {
+    padding: 0;
+    margin-top: 4%;
+    flex-direction: column;
+  }
+
+  .bio-data {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    padding: 5%;
+    line-height: 1.8em;
+  }
+  .App img {
+    width: 96%;
+    margin: 5% 2%;
+    margin-top: 8%;
+  }
+  .cv{
+    flex-direction: column;
+    padding: 5vw;
+  }
+  .left-side, .right-side{
+    width: 90vw;
+  }
+  .skil-list li{
+    margin-right: 8%;
+  }
+  img.cv-profile{
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+  }
+  .inter-head{
+    font-size: 1rem;
+  }
+}
