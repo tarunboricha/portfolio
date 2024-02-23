@@ -1,0 +1,108 @@
+a {
+    color: white;
+}
+
+.cv {
+    padding: 0 10vw;
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 45vw;
+}
+
+.internship {
+    margin: 3% 0;
+}
+
+.exper-head {
+    align-self: center;
+    font-size: 2rem;
+    color: rgb(245, 143, 124);
+    max-width: 3103px;
+    margin-bottom: 2%;
+}
+
+
+.inter-head {
+    font-size: large;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.inter-disc {
+    text-align: justify;
+    color: #d6d6d6;
+    margin: 2% 0;
+}
+
+.internship hr {
+    margin: 1% 0;
+    width: 70%;
+    color: #d6d6d6;
+}
+
+img.cv-profile {
+    height: 45vh;
+    width: 45vh;
+    border-radius: 50%;
+}
+
+.name {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(245, 143, 124);
+    margin-top: 15%;
+}
+
+.contact-detail {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 15%;
+}
+
+.skil-list {
+    color: #ffffff;
+    display: flex;
+}
+
+.skil-list li {
+    margin-right: 8%;
+}
+
+#mobile {
+    display: none;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.photo-item {
+    position: relative;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-title {
+    position: absolut e;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}

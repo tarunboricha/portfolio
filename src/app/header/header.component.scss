@@ -1,0 +1,47 @@
+.header-item {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.header-myname {
+    display: flex;
+    justify-content: center;
+}
+
+.header-item h5 {
+    color: #a26f66;
+    margin: 1.5%;
+    cursor: pointer;
+}
+
+.header h2 {
+    display: inline;
+    text-align: center;
+    color: #a26f66;
+    margin-top: 1%;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.header .text-tracking-in-expand {
+    animation-duration: 1.2s;
+    animation-delay: .3s;
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    animation-fill-mode: backwards;
+    animation-duration: .8s;
+    animation-name: text-tracking-in-expand;
+}
+
+@keyframes text-tracking-in-expand {
+    0% {
+        opacity: 0;
+        letter-spacing: -.5em;
+    }
+
+    100% {
+        opacity: 1;
+        letter-spacing: 2px;
+    }
+}

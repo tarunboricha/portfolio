@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    background-color: #4f4f51;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.profile-img {
+    animation-duration: 1.2s;
+    animation-delay: .3s;
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    animation-fill-mode: backwards;
+    animation-duration: .8s;
+    animation-name: fade-in;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
