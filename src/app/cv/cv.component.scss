@@ -106,3 +106,37 @@ img.cv-profile {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    #desktop {
+        display: none;
+    }
+
+    #mobile {
+        display: inline;
+    }
+
+    .cv {
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    .left-side,
+    .right-side {
+        width: 90vw;
+    }
+
+    .skil-list li {
+        margin-right: 8%;
+    }
+
+    img.cv-profile {
+        height: 35vh;
+        width: 35vh;
+        border-radius: 50%;
+    }
+
+    .inter-head {
+        font-size: 1rem;
+    }
+}
