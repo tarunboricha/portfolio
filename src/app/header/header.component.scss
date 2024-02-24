@@ -17,10 +17,13 @@
     color: #a26f66;
     margin: 1.5%;
     text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
 }
 
 .header-item a:hover {
     text-decoration:underline;
+    transform: scale(1.1);
 }
 
 .header h2 {
