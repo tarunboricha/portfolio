@@ -9,10 +9,18 @@
     justify-content: center;
 }
 
-.header-item h5 {
+.header-myname h2:hover{
+    color: #a89f9f;
+}
+
+.header-item a {
     color: #a26f66;
     margin: 1.5%;
-    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-item a:hover {
+    text-decoration:underline;
 }
 
 .header h2 {

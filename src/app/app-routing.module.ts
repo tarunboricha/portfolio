@@ -5,17 +5,18 @@ import { CvComponent } from './cv/cv.component';
 
 const routes: Routes = [
   {
-    component:AboutComponent,
-    path:''
+    component: AboutComponent,
+    path: '',
+
   },
   {
-    component:CvComponent,
-    path:'cv'
+    component: CvComponent,
+    path: 'cv'
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: true, scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(routes, { useHash: true, scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
