@@ -9,14 +9,14 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class ProjectsComponent {
   projects = [
     {
-      imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczOjloriHd_16mrTLpdwxRyV-IxgyDvnF7iJ-GlFXzD7Snx8wFMn5SD1FXySxNxC7NS1gjXb_MQBm8l5MRVqyp6DKHfm1hivkiGZGjHpCd5zXNYZE53fIHzgDsX5blrpTB1n0JCCx8DAAuwKARXK8ohMPQ=w1896-h824-s-no-gm?authuser=0',
+      imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczM4YSvmQ6jnnabLqfq38NcHT9tzvm6JyhbYlqaPYjRp00uH4aDsYJzHnLnQFw8Y38CCZotk72dRBH7F_nbV9s07Mt5eBxuf7DpUIYsSv89fhJ-phue74JrCvsiyPP1130fnZFiaV8ejTcNxS0J8ARukGg=w1021-h573-s-no-gm?authuser=0',
       title: "Men's Fashion Web-Application",
       description: "I developed E-commerce Fashion Web Application using Angular 15. The primary focus is to build a good, user-interactive Single Page Application. This application allows sellerto perform all CRUD operations on the products.",
       demoUrl: 'https://tarunboricha.github.io/angular-crud',
       codeUrl: 'https://github.com/tarunboricha/angular-crud'
     },
     {
-      imageUrl: 'https://lh3.googleusercontent.com/pw/ABLVV84k_gRFY9oKSsrd2FfIRapTr9N9sh8U2ouNnyLPe9tZTd8U5zOVKqKnNOTjzI95FGG4EOk5RxZ-CeCOz1xmz8GkJHpkJVdw47JXrKCtYOBLzIxALxDPmgZpDBMcyWaDrf1w58ROKvoYHp4IWNq5wbgcyA=w1919-h822-s-no-gm?authuser=0',
+      imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNpcT3bbL04v4hf_h7nehOcUK_sMVfa0-rnJ7GvzrcZ4wBfZ43f9zJU5Qfc-v_Q0V84qvor3Hjtweq-U3upvgHUcjh0Q7BRsCO0omVHX7gB3DzCzz7eGCa_RKFt2XYwB3BIf6Six-g43VO9fU9PZISwzQ=w1023-h573-s-no-gm?authuser=0',
       title: "KEEPER APPLICATION",
       description: " Developed a web application similarto Google Keep for creating, updating, and deleting notes, featuring user authentication and personalized note storage. Utilized React for the front-end, Express for the back-end, and MySQL for the database, establishing a user-notes relationship. Successfully deployed the project using GitHub Pages for front-end and ngrok for the back-end.",
       demoUrl: 'https://tarunboricha.github.io/React-Keeper',
