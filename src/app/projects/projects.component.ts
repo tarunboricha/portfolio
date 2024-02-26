@@ -26,7 +26,7 @@ export class ProjectsComponent {
       imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczPaQaIfIjA2O9_GroWzRqQtQrrQ7lfLraj3GZsjFjL8QzF2MmtPOyMg-jJiGLPt-FbubGQSDSeGZg4fS8rdOAmLRQKQIANc3l_RtP_UyKg638VUl-ivM8j_MvJ8niDEgDo3ooX_jquLK-8l43mKAwnF0g=w1035-h699-s-no-gm?authuser=0',
       title: "TASK MANAGEMENT SYSTEM",
       description: "Delivered a solution forthe hardware manufacturing domain. Engineered seamless task tracking and optimizing efficiency in the manufacturing workflow. Developed a solution that enhances productivity,resource allocation and all the CRUD operations.",
-      demoUrl: undefined,
+      demoUrl: 'https://drive.google.com/file/d/1fGAMzV7JmTrCJuLTlTTrRadkUCP0y6zd/view?usp=sharing',
       codeUrl: 'https://github.com/tarunboricha/Hardware-Manufacturing-Task-Management-System'
     }
   ]
