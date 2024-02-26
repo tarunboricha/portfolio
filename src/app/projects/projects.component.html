@@ -1,0 +1,17 @@
+<div class="projects-container">
+  <div class="project-card" *ngFor="let project of projects">
+    <div class="project-image" *ngIf="project.demoUrl">
+      <a [href]="project.demoUrl"  target="_blank" rel="noreferrer"><img [src]="project.imageUrl" alt="Project Image"></a>
+    </div>
+    <div class="project-image" *ngIf="!project.demoUrl">
+        <img [src]="project.imageUrl" alt="Project Image">
+      </div>
+    <div class="project-details">
+      <h4 class="project-title">{{ project.title }}</h4>
+      <p class="project-description">{{ project.description }}</p>
+      <div class="project-links">
+        <a [href]="project.codeUrl"  target="_blank" rel="noreferrer" class="btn btn-code">View Code</a>
+      </div>
+    </div>
+  </div>
+</div>
