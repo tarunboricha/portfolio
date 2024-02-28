@@ -21,6 +21,16 @@
     transition: transform 0.3s ease-in-out;
 }
 
+.header-item span {
+    // margin-top: 1em;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    align-self: center;
+    color: rgba(245, 143, 124, 0.56);
+    font-style: normal;
+}
+
 .header-item a:hover {
     text-decoration:underline;
     transform: scale(1.1);
