@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit{
   }
 
   triggerNameAnimation() {
-    const headerMyName = document.querySelector('.header-myname h2');
+    const headerMyName = document.querySelector('.header-myname h1');
     if (headerMyName) {
       headerMyName.classList.remove('text-tracking-in-expand');
       setTimeout(() => {
