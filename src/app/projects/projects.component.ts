@@ -29,5 +29,9 @@ export class ProjectsComponent {
       demoUrl: 'https://drive.google.com/file/d/1fGAMzV7JmTrCJuLTlTTrRadkUCP0y6zd/view?usp=sharing',
       codeUrl: 'https://github.com/tarunboricha/Hardware-Manufacturing-Task-Management-System'
     }
-  ]
+  ];
+
+  imageLoaded(event:any) {
+    event.target.classList.add('loaded');
+  }
 }

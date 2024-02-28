@@ -1,8 +1,9 @@
 <div class="container">
+    <h2>PHOTOGRAPHY & EDITING</h2>
     <div class="row">
       <div class="col-md-3 mb-3" *ngFor="let photo of photos">
         <div class="card">
-          <img [ngSrc]="photo.url" height="250" width="250" class="card-img-top loaded" alt="..." (click)="openFullScreen(photo.url)">
+          <img [src]="photo.url" height="250" width="250" loading="lazy" class="card-img-top" alt="..." (click)="openFullScreen(photo.url)" (load)="imageLoaded($event)">
           <!-- <div class="card-body">
             <h5 class="card-title">{{ photo.title }}</h5>
             <p class="card-text">{{ photo.description }}</p>

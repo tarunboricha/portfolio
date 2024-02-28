@@ -4,7 +4,7 @@
       <a [href]="project.demoUrl"  target="_blank" rel="noreferrer"><img [src]="project.imageUrl" class="loaded" alt="Project Image"></a>
     </div>
     <div class="project-image" *ngIf="!project.demoUrl">
-        <img [src]="project.imageUrl" class="loaded" alt="Project Image">
+        <img [src]="project.imageUrl" loading="lazy" alt="Project Image" (load)="imageLoaded($event)">
       </div>
     <div class="project-details">
       <h4 class="project-title">{{ project.title }}</h4>

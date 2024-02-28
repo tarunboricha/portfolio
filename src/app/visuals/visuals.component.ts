@@ -23,6 +23,10 @@ export class VisualsComponent {
 
   fullScreenImage: string | null = null;
 
+  imageLoaded(event:any) {
+    event.target.classList.add('loaded');
+  }
+
   openFullScreen(imageUrl: string) {
     this.fullScreenImage = imageUrl;
   }
