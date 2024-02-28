@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-3" *ngFor="let photo of photos">
+        <div class="card">
+          <img [ngSrc]="photo.url" height="250" width="250" class="card-img-top loaded" alt="..." (click)="openFullScreen(photo.url)">
+          <!-- <div class="card-body">
+            <h5 class="card-title">{{ photo.title }}</h5>
+            <p class="card-text">{{ photo.description }}</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Full Screen Image Wrapper -->
+  <div class="fullscreen-container" *ngIf="fullScreenImage">
+    <span class="close" (click)="closeFullScreen()">&times;</span>
+    <img [src]="fullScreenImage" class="fullscreen-image loaded">
+  </div>
