@@ -1,4 +1,21 @@
 <div class="header">
+    <div class="nav-container" id="nav">
+        <div class="nav-btn" (click)="toggleMenu()" [class.active]="isActive">
+            <div class="line top"></div>
+            <div class="line middle"></div>
+            <div class="line bottom"></div>
+        </div>
+    </div>
+    <div class="fullscreen-container" *ngIf="isActive">
+        <span class="close" (click)="closeFullScreenNav()">&times;</span>
+        <div class="nav-item">
+            <a routerLink="" (click)="closeFullScreenNav()"><span>About</span></a>
+            <a routerLink="cv" (click)="closeFullScreenNav()"><span>CV</span></a>
+            <a routerLink="projects" (click)="closeFullScreenNav()"><span>Projects</span></a>
+            <a routerLink="visuals" (click)="closeFullScreenNav()"><span>Visuals</span></a>
+            <a routerLink="" (click)="closeFullScreenNav()"><span>Contact</span></a>
+        </div>
+    </div>
     <div class="header-item">
         <a routerLink=""><span>About</span></a>
         <a routerLink="cv"><span>CV</span></a>
@@ -6,5 +23,7 @@
         <a routerLink="visuals"><span>Visuals</span></a>
         <a routerLink=""><span>Contact</span></a>
     </div>
-    <div class="header-myname"><h1 class="text-tracking-in-expand" routerLink="">TARUN BORICHA</h1></div>
+    <div class="header-myname">
+        <h1 class="text-tracking-in-expand" routerLink="">TARUN BORICHA</h1>
+    </div>
 </div>

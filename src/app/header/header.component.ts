@@ -7,9 +7,19 @@ import { Router, NavigationEnd } from '@angular/router';
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
-export class HeaderComponent implements OnInit{
+export class HeaderComponent implements OnInit {
 
   constructor(private router: Router) { }
+
+  isActive: boolean = false;
+
+  toggleMenu() {
+    this.isActive = true;
+  }
+
+  closeFullScreenNav() {
+    this.isActive = false;
+  }
 
   ngOnInit(): void {
     this.router.events.subscribe(event => {
