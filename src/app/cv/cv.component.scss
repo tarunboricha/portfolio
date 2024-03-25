@@ -45,8 +45,8 @@ a {
 }
 
 img.cv-profile {
-    height: 45vh;
-    width: 45vh;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
 }
 
@@ -84,16 +84,9 @@ img.cv-profile {
     gap: 20px;
 }
 
-.photo-item {
-    position: relative;
-}
-
-.photo-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+// .photo-item {
+//     position: relative;
+// }
 
 .photo-title {
     position: absolut e;
@@ -105,6 +98,12 @@ img.cv-profile {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 770px) {
+    .cv {
+        padding: 0 5vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {
