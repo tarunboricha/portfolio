@@ -11,6 +11,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.disable-scroll {
+    overflow: hidden;
+}
+
 .loaded {
     animation-duration: 1.2s;
     animation-delay: .3s;

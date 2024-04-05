@@ -13,9 +13,11 @@ export class HeaderComponent {
 
   toggleMenu() {
     this.isActive = true;
+    document.body.classList.add('disable-scroll');
   }
 
   closeFullScreenNav() {
     this.isActive = false;
+    document.body.classList.remove('disable-scroll');
   }
 }
