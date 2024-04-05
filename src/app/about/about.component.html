@@ -1,7 +1,8 @@
 <div class="bio">
   <div class="profile-img">
-    <img [ngSrc]="profilePhoto" width="359" height="477" priority="high" alt="Tarun's Picture"
-      (load)="imageLoaded($event)">
+    <img (load)="imageLoaded()" prioroty="high" [ngClass]="{'loaded': isImageLoaded}"
+      src="https://lh3.googleusercontent.com/pw/ABLVV84a5nti7mNDTll6qFgqjVuFyuKcbIkUzaTWlO2D7l41InLPcU95ATP-rpnNtMS5m058ZhwyLqdLsNhrfwPD64R_mdA6YZmF4TlLGSERSAtTnOHUwxFYhTJ7_H67Oz6daqKkM4BGQ3EBBOOl84T6NMXHzA=w620-h827-s-no-gm?authuser=0"
+      alt="Tarun's profile pitcure">
   </div>
   <div class="bio-data">
     <div class="head-bio">
