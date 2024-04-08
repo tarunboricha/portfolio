@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.scss'
 })
 export class AboutComponent {
-  isImageLoaded = false;
-
-  imageLoaded() {
-    this.isImageLoaded = true;
-  }
+  
 }
