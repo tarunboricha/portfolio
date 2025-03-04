@@ -1,229 +1,170 @@
-<div class="cv">
-    <div class="left-side">
-        <div class="experience">
-            <div class="exper-head" style="text-align: left;">
-                Education
+<!-- resume.component.html -->
+<div class="container py-5">
+    <!-- Header Section -->
+    <header class="text-center mb-5">
+        <h2 class="h4 mb-4" style="color: #f58f7c;">Member Technical Staff ∼ Engineer</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+            <a *ngFor="let link of socialLinks" [href]="link.url" target="_blank"
+                class="text-decoration-none text-white">
+                <i [class]="link.icon"></i> {{link.text}}
+            </a>
+            <div class="d-flex align-items-center gap-1">
+                <i class="fas fa-phone"></i> +919374930055
             </div>
-            <div class="internship">
-                <div class="inter-head">
-                    Dhirubhi Ambani Institute of ICT
-                </div>
-                <div class="inter-head" id="desktop">
-                    BTech in Information and Communication Technology
-                </div>
-                <div class="inter-head" id="mobile">
-                    BTech in ICT
-                </div>
-                <div class="inter-head">
-                    Gandhinagar | Aug 2019 - Jun 2023
-                </div>
-                <div class="inter-head">
-                    CGPA: 6.34/10
-                </div>
+            <div class="d-flex align-items-center gap-1">
+                <i class="fas fa-envelope"></i> tarunboricha2092001&#64;gmail.com
             </div>
         </div>
-        <div class="experience">
-            <div class="exper-head" style="text-align: left;">
-                INTERNSHIP
-            </div>
-            <div class="internship">
-                <div class="inter-head">
-                    CLOMOTECH PVT LTD | Frontend Developer
-                </div>
-                <div class="inter-head">
-                    Feb 2023 - Jul 2023 | Remote | <a
-                        href="https://drive.google.com/file/d/1EgSCFqfJ0HpgNt1NKC83r1l0tthA6OfW/view" target="_blank"
-                        rel="noreferrer">Experiece Latter</a>
-                </div>
-                <div class="inter-disc">
-                    <ul>
-                        <li>Collaborated on the development of a Web Application for ICICI Lombard, focusing on
-                            improving user
-                            experience and resolving technical issues.</li>
-                        <li>Assisted in optimizing application performance, resulting in a noticeable improvement in
-                            responsiveness
-                            and overall user satisfaction.
-                        </li>
-                        <li> Contributed to the resolution of 10+ bugs and the implementation of 5+ new features to
-                            enhance the
-                            application’s functionality.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="experience">
-            <div class="exper-head" style="text-align: left;">
-                PROJECTS
-            </div>
-            <div class="internship">
-                <div class="inter-head">
-                    E-commerce Web Application | <a href="https://github.com/tarunboricha/e-commerce" target="_blank"
-                        rel="noreferrer">Repository
-                        Link</a>
-                </div>
-                <div class="inter-disc">
-                    <ul>
-                        <li>Developed an e-commerce web application using Angular, Express.js, and MySQL, resulting in a
-                            responsive and interactive UI.</li>
-                        <li>Implemented product search functionality with query correction by type, name, and color,
-                            improving
-                            search accuracy by 30% compared to previous methods and enhancing user experience.
-                        </li>
-                        <li>Integrated JWT authentication for enhanced security, ensuring secure user data handling and
-                            safeguarding against potential threats.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="internship">
-                <div class="inter-head">
-                    Keeper Web Application | <a href="https://github.com/tarunboricha/React-Keeper" target="_blank"
-                        rel="noreferrer">Repository
-                        Link</a>
-                </div>
-                <div class="inter-disc">
-                    <ul>
-                        <li>Developed a web application similar to Google Keep for creating, updating, and deleting
-                            notes, featuring
-                            user authentication and personalized note storage.</li>
-                        <li>Received positive feedback from friends and family who used the application for personal
-                            organization</li>
-                        <li>Utilized React for the front-end, Express for the back-end, and MySQL for the database,
-                            establishing a user-notes relationship.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="internship">
-                <div class="inter-head">
-                    Task Management System | <a
-                        href="https://drive.google.com/file/d/1fGAMzV7JmTrCJuLTlTTrRadkUCP0y6zd/view" target="_blank"
-                        rel="noreferrer">Project Link</a>
-                </div>
-                <div class="inter-disc">
-                    <ul>
-                        <li>Delivered a solution for the hardware manufacturing domain using database management system.
-                        </li>
-                        <li>Engineered seamless task tracking and optimizing efficiency in the
-                            manufacturing workflow.</li>
-                        <li>Developed a solution that enhances productivity, resource allocation and all the
-                            CRUD operations.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="internship">
-                <div class="inter-head">
-                    DNA BASED CRYPTOGRAPHY | <a
-                    href="https://github.com/tarunboricha/DNA-based-Cryptography" target="_blank"
-                    rel="noreferrer">Repository Link</a>
-                </div>
-                <div class="inter-disc">
-                    <ul>
-                        <li>Develop algorithms that encode the information using DNA sequences.</li>
-                        <li>DNA based Steganography approach.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="experience">
-            <div class="exper-head" style="text-align: left;">
-                CERTIFICATIONS
-            </div>
-            <div class="internship">
-                <div class="inter-head">
-                    Full Stack Development Training
-                </div>
-                <div class="inter-head">
-                    Dec 2023 | <a
-                        href="https://drive.google.com/file/d/1fxiwJBcjEYOkXf8ieS_NVd_8TGJg56gQ/view?usp=sharing"
-                        target="_blank" rel="noreferrer">Certificate Link</a>
-                </div>
-                <div class="inter-disc">
-                    <ul>
-                        <li>In this training I learnt full-stack web-development skills like React, JavaScript,
-                            Express, MySQL and web deployment.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="internship">
-                <div class="inter-head">
-                    PROBLEM SOLVING INTERMEDIATE
-                </div>
+    </header>
 
-                <div class="inter-head">
-                    Aug 2022 | <a href="https://www.hackerrank.com/certificates/e0bfe40ea49d" target="_blank"
-                        rel="noreferrer">Certificate Link</a>
+    <!-- Main Content -->
+    <div class="row">
+        <!-- Left Column -->
+        <div class="col-lg-8 pe-lg-5">
+            <section class="mb-5">
+                <h3 class="h4 header mb-3">SUMMARY</h3>
+                <p style="color: #fff;">Results-driven software engineer with 1+ year of experience
+                    in building scalable web applications and cloud-based automation solutions. Expertise in C#/.NET
+                    Core, Angular, and
+                    distributed data extraction systems, with a focus on optimizing workflows by 70–90%. Proficient in
+                    the full software development lifecycle (SDLC), cross-functional collaboration, and operational
+                    problem-solving for mission-critical
+                    systems. GATE Computer Science qualifier passionate about
+                    high-scale services and continuous innovation.
+                </p>
+            </section>
+
+            <section class="mb-5">
+                <h3 class="h4 header mb-3">EXPERIENCE</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">First American (India) | Member Technical Staff</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">10/2024 – Present</h6>
+                        <ul class="list-unstyled">
+                            <li>• Developing multi-browser scraping technique (MBST) to automate extraction of property
+                                data from 100+
+                                US county websites, reducing manual effort by 90% and accelerating title policy
+                                creation.</li>
+                            <li>• Designed a common web scraping algorithm reducing development estimates by 65% (21
+                                hours → 7
+                                hours / workflow).</li>
+                            <li>• Did a complete R&D on AI initiative Web Scraping to automate the Web Scraping by 90%.
+                            </li>
+                            <li>• Implemented scroll-handling algorithm improving data capture accuracy by 70%.</li>
+                            <!-- Add other points -->
+                        </ul>
+                    </div>
                 </div>
-                <div class="inter-disc">
-                    <ul>
-                        <li>It covers topics of Data Structures (such as HashMaps, Stacks and Queues) and
-                            Algorithms (such as Optimal Solutions).
-                        </li>
-                    </ul>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">First American (India) | Technical Trainee</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">10/2024 – Present</h6>
+                        <ul class="list-unstyled">
+                            <li>• Trained in React, Angular, and ASP.NET Core, focusing on SDLC best practices and
+                                large-scale application
+                                development.</li>
+                            <!-- Add other points -->
+                        </ul>
+                    </div>
                 </div>
-            </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">CLOMOTECH | Frontend Developer</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">10/2024 – Present</h6>
+                        <ul class="list-unstyled">
+                            <li>• Enhanced the UX of ICICI Lombard’s web app by resolving 15+ bugs and implementing 5+
+                                features, leading to a noticeable improvement in responsiveness and overall user
+                                satisfaction.</li>
+                            <!-- Add other points -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add other experiences -->
+            </section>
+
+            <section class="mb-5">
+                <h3 class="h4 header mb-3">CERTIFICATIONS</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">FULL STACK DEVELOPMENT TRAINING</h5>
+                        <div style="display: flex; justify-content: space-between;"><h6 class="card-subtitle mb-2 text-muted">V-Shesh</h6><h6 class="card-subtitle mb-2 text-muted"><a target="_blank" href="https://drive.google.com/file/d/1fxiwJBcjEYOkXf8ieS_NVd_8TGJg56gQ/view?usp=sharing" class="text-decoration-none text-muted">Certificate Link</a></h6></div>
+                        <ul class="list-unstyled">
+                            <li>• Developed web-development skills like React, JavaScript, Express, MySQL and web deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">PROBLEM SOLVING (INTERMEDIATE)</h5>
+                        <div style="display: flex; justify-content: space-between;"><h6 class="card-subtitle mb-2 text-muted">HackerRank</h6><h6 class="card-subtitle mb-2 text-muted"><a target="_blank" href="https://www.hackerrank.com/certificates/e0bfe40ea49d" class="text-decoration-none text-muted">Certificate Link</a></h6></div>
+                        <ul class="list-unstyled">
+                            <li>• It covers topics of Data Structures and Algorithms (such as Optimal Solutions).</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
-    </div>
-    <div class="right-side">
-        <div class="profile-img" style="display: flex; justify-content: center; margin-top: 1%;">
-            <img class="cv-profile loaded" loading="lazy"
-                src='https://lh3.googleusercontent.com/pw/ABLVV862GaQIXCNelOT_j6AIm2xRw_on3AijbUNuhwfaEWG6qBy0PXzohljv5JBQJU74OLnvDGYbXmjfzozkWEybNC5R_-CD2ic6YWQmFSXpYgzVSH4qFjoZTR4GKtWW-vbJYtk1QvBoDdM0zKJgjGv7V-eY8A=w400-h400-s-no-gm?authuser=0'
-                alt="Tarun's profile pitcure" />
+
+        <!-- Right Column -->
+        <div class="col-lg-4">
+            <section class="mb-5">
+                <h3 class="h4 header mb-3">CORE COMPETENCIES</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="text-muted">Programming:</h6>
+                        <div class="d-flex flex-wrap gap-1">
+                            <span *ngFor="let skill of coreCompetencies.programming" class="badge bg-light text-dark">
+                                {{skill}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="text-muted">Frameworks:</h6>
+                        <div class="d-flex flex-wrap gap-1">
+                            <span *ngFor="let skill of coreCompetencies.frameworks" class="badge bg-light text-dark">
+                                {{skill}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="text-muted">Tools:</h6>
+                        <div class="d-flex flex-wrap gap-1">
+                            <span *ngFor="let skill of coreCompetencies.tools" class="badge bg-light text-dark">
+                                {{skill}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h6 class="text-muted">Concepts:</h6>
+                        <div class="d-flex flex-wrap gap-1">
+                            <span *ngFor="let skill of coreCompetencies.concepts" class="badge bg-light text-dark">
+                                {{skill}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other competencies -->
+            </section>
+
+            <section class="mb-5">
+                <h3 class="h4 header mb-3">EDUCATION</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{education.institution}}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{education.duration}}</h6>
+                        <p class="card-text">{{education.cgpa}}</p>
+                        <ul class="list-unstyled">
+                            <li *ngFor="let detail of education.details">• {{detail}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="name">Tarun Boricha</div>
-        <div class="contact-detail">
-            <div>Software Developer</div>
-            <div><a style="text-decoration: none;" href="mailto:tarunboricha2092001@gmail.com">tarunboricha2092001&#64;gmail.com</a></div>
-            <div>+919374930055</div>
-        </div>
-        <div class="exper-head" style="text-align: left;">
-            COURSEWORK
-        </div>
-        <ul style="color: white; margin-bottom: 15%;">
-            <li>Data Structures</li>
-            <li>Programming Language C++</li>
-            <li>Operating Systems</li>
-            <li>Database Management System</li>
-            <li>Object-oriented programming</li>
-            <li>Algorithms</li>
-        </ul>
-        <div class="exper-head" style="text-align: left;">
-            SKILLS
-        </div>
-        <div class="inter-head">
-            TECHNICAL
-        </div>
-        <ul>
-            <div class="skil-list">
-                <li>C++</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-            </div>
-            <div class="skil-list">
-                <li>SQL</li>
-                <li>OOPs</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </div>
-            <div class="skil-list">
-                <li>Angular</li>
-                <li>MySQL</li>
-                <li>Git and Github</li>
-            </div>
-            <div class="skil-list">
-                <li style="margin: 0;">Basic Express</li>
-                <li style="margin: 0 -9% 0 9%;">Basic Unix Command Line</li>
-            </div>
-        </ul>
-        <div class="inter-head">
-            NON TECHNICAL
-        </div>
-        <ul>
-            <div class="skil-list">
-                <li>Problem Solving</li>
-                <li>Communication</li>
-            </div>
-        </ul>
     </div>
 </div>
